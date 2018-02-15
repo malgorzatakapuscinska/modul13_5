@@ -1,5 +1,5 @@
 var os = require('os');
-process.stdin.setEncoding('utf8');
+var colors = require('colors');
 
 // os.uptime() method returns the system uptime in number of seconds. On Windows the returned value includes fractions of a second.
 
