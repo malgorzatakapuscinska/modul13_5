@@ -8,7 +8,7 @@ function getUptime(){
 	var uptimeRounded = Math.round(uptime);
 	var uptimeMinutes = Math.floor(uptimeRounded/60);
 	var uptimeSeconds = uptimeRounded-(uptimeMinutes*60);
-	console.log('Uptime: ' +  uptimeMinutes + " min " + uptimeSeconds + " sec");
+	console.log('Uptime: '.green +  uptimeMinutes + " min " + uptimeSeconds + " sec");
 }
 
 exports.getUptime = getUptime;
